@@ -183,24 +183,13 @@ function Home() {
               className="absolute inset-0 w-full h-full object-cover opacity-30"
               alt="Community"
             />
-            <div className="relative z-10 px-8 py-20 text-center">
+            <div className="relative z-10 px-8 py-32 text-center">
               <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
-                Never miss a beat.
+                "Connecting the world through the power of words."
               </h2>
-              <p className="text-slate-300 text-lg mb-10 max-w-xl mx-auto">
-                Join 50,000+ subscribers and get the latest tech and lifestyle
-                blogs weekly.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 max-w-lg mx-auto bg-white/10 p-2 rounded-3xl backdrop-blur-md border border-white/20">
-                <input
-                  type="email"
-                  placeholder="you@example.com"
-                  className="bg-transparent px-6 py-3 text-white outline-none grow placeholder:text-slate-400"
-                />
-                <button className="px-8 py-3 bg-white text-slate-900 font-bold rounded-2xl hover:bg-indigo-400 hover:text-white transition-all">
-                  Subscribe
-                </button>
-              </div>
+      
+              
+             
             </div>
           </div>
         </Container>
