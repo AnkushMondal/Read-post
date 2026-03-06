@@ -1,11 +1,11 @@
 import React,{useEffect,useState} from 'react'
 import { useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
-export default function ProtectedLayout({children ,authentication=true}) {
+export default function AuthLayout({children ,authentication=true}) {
     const navigate = useNavigate()
     const [loader, setloader] = useState(true);
     //login or not --from auth state
-    const authStatus = useSelector((state) => state.auth);
+    const authStatus = useSelector((state) => state.auth.status);
     useEffect(() => {
         //easy way to check authentication and navigate accordingly-
         // if(authStatus==true){
